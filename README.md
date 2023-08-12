@@ -1,10 +1,10 @@
 # Basic-Game
-gamelist=[1,2,3]
+game_list=[1,2,3]
 def display game():
     print("Here is current list:")
-    print(game list)
+    print(game_list)
 display game()
-def position choice():
+def position_choice():
     
   choice='wrong'
     
@@ -17,14 +17,14 @@ def position choice():
        print("This is invalid input")
         
   return int(choice)  
-  position choice()
-    def replacement choice(game list,position):
+  position_choice()
+    def replacement choice(game_list,position):
     userplacement=input("Enter a string you want to replace: ")
     
-   gamelist[position]=userplacement
-    return game list
- replacement choice(game list,1)
- def game choice():
+   game_list[position]=userplacement
+    return game_list
+ replacement_choice(game_list,1)
+ def game_choice():
     
     
   choice='wrong'
@@ -45,14 +45,14 @@ def position choice():
       ganme_on=True
 game_list=[1,2,3,4,5]
 
-while game on:
+while game_on:
     
   display game()
     
-  position=positionchoice
+  position=position_choice
     
-  gamelist=replacementchoice(game list,1)
+  game_list=replacement_choice(game_list,1)
     
   display game()
     
-  game=gameonchoice()
+  game=gameon_choice()
